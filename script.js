@@ -52,7 +52,6 @@ notcorrect.forEach(function (item) {
             for (var t = 0; t < correct.length; t++) {
                 correct[queuem].style.background = 'blue';
                 correct[queuem].style.color = 'white';
-                console.log(correct[t]);
             }
             count = true;
         }
